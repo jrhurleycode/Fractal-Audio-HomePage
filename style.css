@@ -24,25 +24,18 @@ body {
 
 .nav-ctn img {
 	padding: 15px 0px;
-	width: 100%;
-	max-width: 300px;
 }
 
 .nav-links {
 	list-style: none;
 	margin: 0;
-	padding: 0;
-}
-
-.nav-links {
-	margin: 0;
-	padding: 0;
 }
 
 .nav-links li {
 	display: inline-block;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 20px;
+	padding-right: 20px;
+
 	text-decoration: none;
 }
 .nav-links a {
@@ -60,12 +53,14 @@ body {
 	margin: auto 5px;
 	padding: 0;
 	height: 2.5rem;
-	width: 8rem;
-
+	min-width: 8rem;
 	border-radius: 0.2rem;
 	border-color: transparent;
 	background: #ff6600;
 	color: #ffffff !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn-shop span {
@@ -115,7 +110,6 @@ body {
 .main-description {
 	color: #ffffff;
 	text-align: center;
-	width: 800px;
 	margin: auto;
 }
 
