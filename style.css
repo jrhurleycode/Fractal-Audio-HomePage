@@ -1,79 +1,118 @@
 @font-face {
-  font-family: "Roboto";
-  src: url(/Fractal-Audio-HomePage/assets/Roboto/Roboto-Regular.ttf);
+	font-family: "Roboto";
+	src: url(/Fractal-Audio-HomePage/assets/Roboto/Roboto-Regular.ttf);
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid red;
 }
 
 body {
-  margin: auto;
+	margin: auto;
+	font-family: "Roboto", monospace;
 }
 
 .nav-ctn {
-  background: #222222;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
+	background: #222222;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
 }
 
 .nav-ctn img {
-  padding: 15px 0px;
+	padding: 15px 0px;
 }
 
 .nav-ctn ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
 }
 
 .nav-links {
-  height: 90px;
+	height: 90px;
 }
 
 .nav-links li {
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 100px;
-  text-decoration: none;
-  display: flex;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100px;
+	text-decoration: none;
+	display: flex;
 
-  align-items: center;
+	align-items: center;
 }
 .nav-links a {
-  color: #ffffff;
-  font-family: "Roboto", monospace;
-  text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .nav-links li:hover {
-  background: rgb(0, 0, 0);
-  margin: 0;
+	background: rgb(0, 0, 0);
+	margin: 0;
 }
 
 .btn-shop {
-  margin: auto 5px;
-  padding: 0;
-  height: 2.5rem;
-  width: 8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.2rem;
-  border-color: transparent;
-  background: #ff6600;
-  color: #ffffff !important;
+	margin: auto 5px;
+	padding: 0;
+	height: 2.5rem;
+	width: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.2rem;
+	border-color: transparent;
+	background: #ff6600;
+	color: #ffffff !important;
 }
 
 .btn-shop span {
-  font-size: 1.1rem;
-  padding-right: 4px;
+	font-size: 1.1rem;
+	padding-right: 4px;
 }
 
 .btn-shop:hover {
-  background: #ffffff;
-  color: #ff6600 !important;
+	background: #ffffff;
+	color: #ff6600 !important;
+}
+
+.main-content {
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding: 4rem;
+}
+
+.main-container img {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.fm3-fm9 {
+	display: flex;
+
+	align-items: center;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+/* .fm3-fm9 img {
+	width: 100%;
+	height: auto;
+} */
+
+.main-description {
+	color: #ffffff;
+	text-align: center;
+	width: 66%;
+	margin: auto;
 }
