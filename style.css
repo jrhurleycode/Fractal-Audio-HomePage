@@ -1,3 +1,79 @@
-div {
-  border: 1px red solid;
+@font-face {
+  font-family: "Roboto";
+  src: url(/Fractal-Audio-HomePage/assets/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+.nav-ctn {
+  background: #222222;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-ctn img {
+  padding: 15px 0px;
+}
+
+.nav-ctn ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-links {
+  height: 90px;
+}
+
+.nav-links li {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100px;
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+}
+.nav-links a {
+  color: #ffffff;
+  font-family: "Roboto", monospace;
+  text-decoration: none;
+}
+
+.nav-links li:hover {
+  background: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.btn-shop {
+  margin: auto 5px;
+  padding: 0;
+  height: 2.5rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  border-color: transparent;
+  background: #ff6600;
+  color: #ffffff !important;
+}
+
+.btn-shop span {
+  font-size: 1.1rem;
+  padding-right: 4px;
+}
+
+.btn-shop:hover {
+  background: #ffffff;
+  color: #ff6600 !important;
 }
