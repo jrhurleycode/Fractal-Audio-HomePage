@@ -10,12 +10,20 @@
 body {
   font-family: "Roboto", monospace;
   margin: 0;
+  background: #000;
+}
+
+.main-contain {
+  max-width: 1440px;
+  margin: 0px;
+  margin: auto;
 }
 
 .nav-ctn {
   background: #222222;
   color: #ffffff;
   line-height: 100px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +49,7 @@ body {
 .nav-links a {
   color: #ffffff;
   text-decoration: none;
-  min-wdth: 8rem;
+  min-width: 8rem;
 }
 
 .nav-links li:hover {
@@ -61,7 +69,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .btn-shop span {
@@ -112,6 +119,7 @@ body {
   color: #ffffff;
   text-align: center;
   margin: auto;
+  max-width: 55%;
 }
 
 .main-description ul {
@@ -120,11 +128,13 @@ body {
 
 .main-description li {
   margin-bottom: 0.5rem;
+  line-height: 16px;
 }
 
 .main-description a {
   text-decoration: none;
   color: #d6ab03;
+  font-weight: 700;
 }
 
 .btn-compare {
@@ -133,4 +143,56 @@ body {
   height: 40px;
   text-align: center;
   margin: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-compare a {
+  padding: 10px 37px;
+  color: #ffffff;
+}
+
+.btn-compare a:hover {
+  background: #ffffff;
+  color: #ff6600 !important;
+}
+
+.footcontrollers {
+  background: #ffffff;
+  padding: 40px 64px;
+}
+
+.fc-ctn {
+  margin: auto;
+  max-width: 1285px;
+  width: 100%;
+  text-align: center;
+}
+
+.fc-ctn h1 {
+  font-size: 28px;
+}
+
+.fc-ctn h2 {
+  font-size: 22px;
+}
+
+.fc-ctn p {
+  padding-bottom: 24px;
+  line-height: 25px;
+}
+
+.fc-ctn a {
+  text-decoration: none;
+  color: #0297d6;
+}
+
+.fc-ctn a:hover {
+  color: #ff6600;
+}
+
+.fc-ctn img {
+  width: 100%;
 }
