@@ -15,8 +15,8 @@ body {
 
 .main-contain {
   max-width: 1440px;
-  margin: 0px;
   margin: auto;
+  
 }
 
 .nav-ctn {
@@ -200,12 +200,14 @@ body {
 .artists {
   background-image: url(/Fractal-Audio-HomePage/assets/bg-img-1.jpg);
   background-size: cover;
+  
 }
 
 .artist-text-wrap {
   text-align: center;
   color: #ffffff;
   padding-top: 40px;
+  
 }
 
 .artist-text-wrap h1 {
@@ -218,10 +220,15 @@ body {
 }
 
 .artist-grid {
-  display: flex;
-  flex-wrap: wrap;
-  flex-shrink: 3;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(6, auto);
   justify-content: center;
-  align-items: center;
-  gap: 5px 5px;
+  align-items: center; 
+  gap: 0px 5px;
+  
+}
+ 
+ .artist-grid > div > img {
+  width: 400px;
 }
