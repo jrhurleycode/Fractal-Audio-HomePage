@@ -217,9 +217,15 @@ body {
   grid-template-rows: repeat(6, auto);
   justify-content: center;
   align-items: center;
-  gap: 0px 5px;
+  gap: 5px 5px;
 }
 
-.artist-grid > div > img {
+.artist-grid > img {
   width: 400px;
+}
+
+.artists > p {
+  padding: 20px 0px 40px 0px;
+  text-align: center;
+  color: white;
 }
