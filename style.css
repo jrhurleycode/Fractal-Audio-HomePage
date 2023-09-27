@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Roboto";
-  src: url(/Fractal-Audio-HomePage/assets/Roboto/Roboto-Regular.ttf);
+  src: url(./Fractal-Audio-HomePage/assets/Roboto/Roboto-Regular.ttf);
 }
 
 * {
@@ -198,7 +198,7 @@ body {
 }
 
 .artists {
-  background-image: url(/Fractal-Audio-HomePage/assets/bg-img-1.jpg);
+  background-image: url(./Fractal-Audio-HomePage/assets/bg-img-1.jpg);
   background-size: cover;
   
 }
